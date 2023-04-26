@@ -1,0 +1,10 @@
+import numpy as np
+one_d = np.array([1,2,3,4,5,6,7])
+two_d = np.array([[3,5], [6, 9 ], [4 , 7]])
+ten_zeros = np.zeros(10)
+sequence = np.arange(16)
+# print(sequence)
+stepper = np.arange(0, 51, 5)
+# print(stepper)
+spaced = np.linspace(0, 50, num= 3)
+print(spaced)
